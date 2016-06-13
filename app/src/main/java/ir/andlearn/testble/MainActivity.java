@@ -17,19 +17,12 @@ import android.widget.Toast;
 import ir.andlearn.testble.BLE.BLE;
 
 public class MainActivity extends AppCompatActivity {
-    static final String TAG = "navid ansari hastam";
-    BluetoothAdapter mBluetoothAdapter;
-    BluetoothLeScanner blescaner;
-    BluetoothManager bluetoothManager;
-    BLE ble;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ble = new BLE();
-        ble.check_BLE_Support(this);
-        ble.turn_ble_on(this);
+
 
 
 
