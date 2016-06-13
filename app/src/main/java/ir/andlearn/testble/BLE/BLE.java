@@ -17,7 +17,7 @@ public class BLE extends AppCompatActivity {
     BluetoothAdapter mBluetoothAdapter;
     BluetoothManager bluetoothManager;
 
-
+    //method for check the support of ble
     public boolean check_BLE_Support(Context context) {
         Log.d(TAG, "check_BLE_Support: check_BLE_Support is running");
         // Use this check to determine whether BLE is supported on the device. Then
