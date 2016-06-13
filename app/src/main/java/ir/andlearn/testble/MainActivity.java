@@ -17,8 +17,7 @@ import android.widget.Toast;
 import ir.andlearn.testble.BLE.BLE;
 
 public class MainActivity extends AppCompatActivity {
-    static final String TAG = "omid";
-    static final String TAGg = "omid";
+    static final String TAG = "navid ansari";
     BluetoothAdapter mBluetoothAdapter;
     BluetoothLeScanner blescaner;
     BluetoothManager bluetoothManager;
