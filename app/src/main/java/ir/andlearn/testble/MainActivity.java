@@ -18,6 +18,7 @@ import ir.andlearn.testble.BLE.BLE;
 
 public class MainActivity extends AppCompatActivity {
     static final String TAG = "omid";
+    static final String TAGg = "omid";
     BluetoothAdapter mBluetoothAdapter;
     BluetoothLeScanner blescaner;
     BluetoothManager bluetoothManager;
