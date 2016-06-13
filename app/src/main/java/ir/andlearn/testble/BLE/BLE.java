@@ -30,7 +30,7 @@ public class BLE extends AppCompatActivity {
             return true;
         }
     }
-
+    //method for turning on if its not on
     public boolean turn_ble_on(Context context){
 
 
